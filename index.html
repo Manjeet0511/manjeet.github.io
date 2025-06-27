@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manjeet Kunwar | Research in Physics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0b0c10;
+      color: #c5c6c7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/NASA_Hubble_Telescope_Spiral_Galaxy_NGC_1309.jpg/1280px-NASA_Hubble_Telescope_Spiral_Galaxy_NGC_1309.jpg') no-repeat center center/cover;
+      padding: 5rem 2rem;
+      text-align: center;
+      color: #fff;
+    }
+    nav {
+      background: #1f2833;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: #66fcf1;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #1f2833;
+      border-radius: 10px;
+    }
+    h1, h2 {
+      color: #66fcf1;
+    }
+    .comment-box, .message-box {
+      background: #0b0c10;
+      border: 1px solid #66fcf1;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #66fcf1;
+      color: #0b0c10;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manjeet Kunwar</h1>
+    <p>Astrophysics | Biomedical Physics | Theoretical Physics</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+    <a href="#collab">Collaborate</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a physicist exploring the cosmos through astrophysics, biomedical physics, and theoretical foundations. I aim to connect science and society with open research and collaborative tools.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Research Projects</h2>
+    <ul>
+      <li>Simulation of Ultra High Energy Photon Splitting</li>
+      <li>Quantum Gravity using Functional Operators</li>
+      <li>Brain Imaging and Neurophysics Modeling</li>
+    </ul>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <p>View on <a href="https://scholar.google.com/citations?hl=en&user=6Yv-x1IAAAAJ" target="_blank">Google Scholar</a> or <a href="https://orcid.org/0009-0000-7868-4199" target="_blank">ORCID</a>.</p>
+    <p>Coming soon: interactive BibTeX and download section.</p>
+  </section>
+
+  <section id="collab">
+    <h2>Collaborate with Me</h2>
+    <div class="message-box">
+      <label>Your Email:</label>
+      <input type="email" placeholder="you@example.com">
+      <label>Your Message:</label>
+      <textarea rows="4" placeholder="Let's collaborate on..."></textarea>
+      <button onclick="alert('Message sent!')">Send</button>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Comment or Message</h2>
+    <div class="comment-box">
+      <label>Name:</label>
+      <input type="text" placeholder="Your name">
+      <label>Comment:</label>
+      <textarea rows="3" placeholder="Share your thoughts..."></textarea>
+      <button onclick="alert('Comment posted!')">Post Comment</button>
+    </div>
+  </section>
+</body>
+</html>
